@@ -222,6 +222,13 @@ Luckey uses a private GitHub repo as a shared brain between me and his other AI 
 
 **When:** At natural wrap-up points in a session, or immediately when something clearly belongs in the repo. Don't batch forever — push when it's fresh.
 
+## Two-Repo Split
+
+- **`luckey01/ai-skills-shared`** — context *about Luckey*. Personal context, preferences, output styles. Source of truth. Other AI tools read from here.
+- **`luckey01/Eumeus-workspace`** — my operational files. MEMORY.md, AGENTS.md, TOOLS.md, SOUL.md, research notes. About running me, not about Luckey.
+
+**Rule:** When new info about Luckey surfaces → push to `ai-skills-shared`. When my operational config changes → commit to `Eumeus-workspace`. Don't duplicate personal context into USER.md — keep USER.md as a lightweight pointer only.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
