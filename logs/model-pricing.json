@@ -1,0 +1,24 @@
+{
+  "_note": "Anthropic API pricing per million tokens. Update when rates change. Source: https://docs.anthropic.com/en/docs/about-claude/models/overview",
+  "_updated": "2026-04-06",
+  "models": {
+    "claude-opus-4-6": {
+      "input_per_mtok": 5.00,
+      "cache_read_per_mtok": 0.50,
+      "cache_write_per_mtok": 6.25,
+      "output_per_mtok": 25.00
+    },
+    "claude-sonnet-4-6": {
+      "input_per_mtok": 3.00,
+      "cache_read_per_mtok": 0.30,
+      "cache_write_per_mtok": 3.75,
+      "output_per_mtok": 15.00
+    },
+    "claude-haiku-4-5": {
+      "input_per_mtok": 1.00,
+      "cache_read_per_mtok": 0.10,
+      "cache_write_per_mtok": 1.25,
+      "output_per_mtok": 5.00
+    }
+  }
+}
